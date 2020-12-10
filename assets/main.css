@@ -1,0 +1,120 @@
+.home {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+
+.title {
+	position: absolute;
+	left: 36%;
+	top: 3%;
+	font-family: KC Uppercut;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 280%;
+	line-height: 84%;
+	text-align: center;
+	color: #DA4087;
+}
+
+.info {
+	position: absolute;
+	left: 12%;
+	top: 30%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-size: 175%;
+	line-height: 70%;
+	color: #E6E9EA;
+	z-index: 1;
+}
+
+.img {
+	position: absolute;
+	left: 50%;
+	top: 30%;
+}
+
+.email {
+	position: absolute;
+	left: 13%;
+	top: 66%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 175%;
+	line-height: 75%;
+	color: lightgray;
+	z-index: 1;
+}
+
+.box {
+	position: absolute;
+	left: 12%;
+	top: 67%;
+	height: 8%;
+	width: 20%;
+	background-color: #FFFFFF;
+}
+
+/* change screen size*/
+
+@media (max-width: 500px) {
+	.home {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+}
+
+	.title {
+		position: absolute;
+		left: 22%;
+		top: 1%;
+		font-family: KC Uppercut;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 230%;
+		line-height: 84%;
+		text-align: center;
+		color: #DA4087;
+}
+
+	.info {
+		position: absolute;
+		left: 10%;
+		top: 16%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-size: 140%;
+		line-height: 70%;
+		color: #E6E9EA;
+		z-index: 1;
+}
+
+	.img {
+		position: absolute;
+		left: 0%;
+		top: 41%;
+}
+
+	.email {
+		position: absolute;
+		left: 11%;
+		top: 45%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 140%;
+		line-height: 75%;
+		color: lightgray;
+		z-index: 1;
+}
+
+	.box {
+		position: absolute;
+		left: 10%;
+		top: 46%;
+		height: 6%;
+		width: 35%;
+		background-color: #FFFFFF;
+}
